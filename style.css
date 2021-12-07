@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+  }
+  .container{
+      width: 1200px;
+      height: 500px;
+      position: relative;
+  }
+  #button {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    background-color: #333333; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 1;
+    transition-delay: 100;
+    transition-timing-function: ease-out;
+  }
+  
+  #fbbtn {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+ opacity: 0;
+  }
+  #whbtn {
+      position: absolute;
+      bottom: 0;
+      right: 40px;
+opacity: 0;
+  }
+  
